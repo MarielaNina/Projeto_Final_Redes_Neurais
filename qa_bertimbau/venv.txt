@@ -1,0 +1,21 @@
+
+creation: python3 -m venv venv
+activation: . venv/bin/activate
+install requeriments: pip install -r requirements.txt
+free cache:pip cache purge
+run code: python main_predict.py
+run code: python main.py
+python -c "import torch; torch.cuda.empty_cache()"
+nvidia-smi
+
+print("hola mariela")
+
+# conda create -n bertimbau python=3.11
+# conda activate bertimbau
+#pip install requeriments.txt
+# luego correr el script
+
+# en viausl: selecter interpreteer
+# despues --Z  cd /data   y luego cd nina y finamalte run(python test.py)
+
+# pip install -r requeriments.txt
