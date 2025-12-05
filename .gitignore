@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Model artifacts and checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+checkpoint-*/
+checkpoints/
+runs/
+results/
+
+# Hugging Face / transformers cache
+.cache/
+transformers_cache/
+huggingface/
+
+# Temporary archives
+*.tar.gz
+*.zip
+
+# Python packaging
+__pypackages__/
+
+# OS files
+.DS_Store
+thumbs.db
