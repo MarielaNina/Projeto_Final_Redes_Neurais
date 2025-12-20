@@ -81,11 +81,11 @@ def run():
 
     # ------------ TRAINING ------------
     training_args = TrainingArguments(
-        output_dir="./results/dora_bertimbau_qa",
-        num_train_epochs=2,
+        output_dir="./results/dora_epoch-3_lr_2e-4",
+        num_train_epochs=3,
         per_device_train_batch_size=16,
         per_device_eval_batch_size=32,
-        learning_rate=2e-4,
+        learning_rate=2e-4, #4.25e-05,
         weight_decay=0.01,
         eval_strategy="epoch",
         save_strategy="epoch",

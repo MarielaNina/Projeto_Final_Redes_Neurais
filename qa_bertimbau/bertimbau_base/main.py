@@ -170,8 +170,8 @@ def run():
         return metric.compute(predictions=formatted_predictions, references=references)
 
     batch_size = 16
-    train_epochs = 2
-    experiment_name = f'{train_epochs}_epochs_{model_type}_qa'
+    train_epochs = 3
+    experiment_name = f'{train_epochs}_epochs_{model_type}_qa_2e-4'
 
     # Configuración de los argumentos de entrenamiento
     training_args = TrainingArguments(
@@ -179,7 +179,7 @@ def run():
         num_train_epochs=train_epochs,  # número total de épocas
         per_device_train_batch_size=batch_size,  # tamaño del batch para entrenamiento
         per_device_eval_batch_size=batch_size*2,  # tamaño del batch para evaluación
-        learning_rate=4.25e-05,    # tasa de aprendizaje
+        learning_rate= 2e-4,    # tasa de aprendizaje 2e-4
         warmup_ratio=0.0,
         weight_decay=0.01,  # decay del peso
         logging_steps=10,

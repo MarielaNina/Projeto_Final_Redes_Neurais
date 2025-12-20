@@ -93,11 +93,11 @@ def run():
 
     # ------------ TRAINING ARGS ------------
     training_args = TrainingArguments(
-        output_dir="./results/qlora_bertimbau_qa",
+        output_dir="./results/qlora_epoch-2_lr_2e-4",
         num_train_epochs=2,
         per_device_train_batch_size=16,
         per_device_eval_batch_size=32,
-        learning_rate=2e-4,
+        learning_rate=2e-4, #2e-4,
         weight_decay=0.01,
         eval_strategy="epoch",
         save_strategy="epoch",
