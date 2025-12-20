@@ -2,9 +2,11 @@
 
 Proyecto para entrenamiento y evaluación de modelos BERT en tareas de Question Answering (SQuAD) en portugués.
 
+
 Descripción
 - Contiene código para entrenar variantes base y large de modelos BERT adaptados a portugués (Bertimbau), con configuraciones para LoRA/QLoRA.
 - Incluye scripts de preprocesamiento, postprocesamiento, y varios `main_*.py` para distintos flujos de entrenamiento y predicción.
+- Se realizan múltiples experimentos de cuantización (QLoRA, LoRA, etc.) tanto en Bertimbau base como large, probando diferentes valores de learning rate (`lr`). Esto permite comparar el impacto de la cuantización y el ajuste de hiperparámetros en el rendimiento y eficiencia del modelo.
 
 Estructura principal
 - `qa_bertimbau/` : subproyecto con implementaciones para `bertimbau_base`, `bertimbau_large` y `tucano_base`.
