@@ -51,7 +51,7 @@ This project explores **Parameter-Efficient Fine-Tuning (PEFT)** techniques for 
 | DoRA | 80.61 | 68.09 | 1h 48m |
 | QDoRA | 77.96 | 65.05 | 1h 58m | 
 
-**QLoRA enables training Large models on consumer GPUs with minimal performance loss!**
+**LoRA enables training Large models on consumer GPUs with minimal performance loss!**
 
 ### BERTimbau-Base (2 epochs, lr=2e-4)
 
@@ -165,7 +165,6 @@ If you use this code or findings in your research, please cite:
   title={Efficient Fine-Tuning Methods for Portuguese Question Answering: 
          Evaluating LoRA, QLoRA, DoRA and QDoRA on BERTimbau with SQuAD},
   author={Nina, Mariela M.},
-  booktitle={[Conference Name]},
   year={2025},
   organization={Universidade Federal de São Paulo}
 }
