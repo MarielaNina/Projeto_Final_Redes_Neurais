@@ -43,13 +43,13 @@ This project explores **Parameter-Efficient Fine-Tuning (PEFT)** techniques for 
 
 ### BERTimbau-Large (2 epochs, lr=2e-4)
 
-| Method | F1 | EM | Training Time | Memory |
-|--------|-----|-----|--------------|--------|
-| Full Fine-Tuning | 84.86 | 73.00 | 5h 15m | 20GB |
-| **LoRA** | **81.32** | **68.67** | **1h 24m** | 20GB |
-| **QLoRA** | **80.03** | **67.17** | **1h 19m** | **8GB** ✨ |
-| DoRA | 80.61 | 68.09 | 1h 48m | 20GB |
-| QDoRA | 77.96 | 65.05 | 1h 58m | 8GB |
+| Method | F1 | EM | Training Time | 
+|--------|-----|-----|--------------|
+| Full Fine-Tuning | 84.86 | 73.00 | 5h 15m | 
+| **LoRA** | **81.32** | **68.67** | **1h 24m** | 
+| **QLoRA** | **80.03** | **67.17** | **1h 19m** | 
+| DoRA | 80.61 | 68.09 | 1h 48m |
+| QDoRA | 77.96 | 65.05 | 1h 58m | 
 
 **QLoRA enables training Large models on consumer GPUs with minimal performance loss!**
 
