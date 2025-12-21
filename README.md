@@ -22,7 +22,7 @@ This repository contains the code and experiments for the paper:
 - Larger models are more resilient to quantization (4.83 vs 9.56 F1 loss)
 - First quantization study applied to BERTimbau models
 
-**Paper and Figures:** See [`paper/`]([paper/](https://github.com/MarielaNina/Projeto_Final_Redes_Neurais/blob/main/Paper_Mariela_Nina.pdf)) directory for the full paper, figures, and supplementary materials.
+**Paper and Figures:** See ([paper/](https://github.com/MarielaNina/Projeto_Final_Redes_Neurais/blob/main/Paper_Mariela_Nina.pdf)) directory for the full paper, figures, and supplementary materials.
 
 ##  Overview
 
